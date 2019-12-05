@@ -1,0 +1,22 @@
+@import '../theme/variables';
+
+body {
+  background-color: $color-dark-gray;
+  font-family: 'Helvetica-Light', Helvetica, Arial, sans-serif;
+}
+
+.App {
+  color: $color-white;
+
+  .header {
+    overflow: auto;
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .contents {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
